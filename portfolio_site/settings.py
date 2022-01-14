@@ -1,4 +1,3 @@
-
 from pathlib import Path
 import os
 
@@ -30,6 +29,7 @@ INSTALLED_APPS = [
     'quote_generator',
     'blog',
     'portfolio',
+    'exchange_rate',
     'portfolio_site',
 ]
 
@@ -118,3 +118,5 @@ STATIC_DIRS = [
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
